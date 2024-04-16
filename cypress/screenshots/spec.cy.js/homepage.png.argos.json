@@ -1,0 +1,1 @@
+{"url":"https://example.cypress.io/","viewport":{"width":1000,"height":660},"colorScheme":"light","mediaType":"screen","test":{"title":"passes","titlePath":["template spec","passes"],"retry":0,"retries":0},"browser":{"name":"electron","version":"118.0.5993.159"},"automationLibrary":{"name":"cypress","version":"13.7.3"},"sdk":{"name":"@argos-ci/cypress","version":"2.0.0"}}

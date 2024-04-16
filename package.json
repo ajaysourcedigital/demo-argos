@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@argos-ci/cypress": "^2.0.1",
+    "cypress": "^13.7.3"
+  },
+  "dependencies": {
+    "@img/sharp-win32-x64": "^0.33.3",
+    "sharp": "^0.33.3"
+  }
+}
