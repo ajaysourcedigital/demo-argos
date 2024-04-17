@@ -151,6 +151,11 @@ Cypress.Commands.addAll({
 
     capture_argos_screenshot(screenshotLabel) {
         cy.argosScreenshot(screenshotLabel, {
+            viewports: [
+                {width: 1920, height: 1080},
+                {width: 768, height: 1024},
+                {width: 390, height: 844}
+            ],
             capture: 'fullPage'
         });
     },
