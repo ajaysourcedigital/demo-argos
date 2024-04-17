@@ -150,7 +150,7 @@ Cypress.Commands.addAll({
     },
 
     async capture_argos_screenshot(screenshotLabel) {
-        await cy.argosScreenshot(screenshotLabel, {
+        cy.argosScreenshot(screenshotLabel, {
             viewports: [
                 {width: 1920, height: 1080},
                 {width: 768, height: 1024},
