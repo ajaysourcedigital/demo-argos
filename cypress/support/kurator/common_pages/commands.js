@@ -155,7 +155,8 @@ Cypress.Commands.addAll({
                 {width: 1920, height: 1080},
                 {width: 768, height: 1024},
                 {width: 390, height: 844}
-            ]
+            ],
+            capture: 'fullpage'
         });
     },
 
