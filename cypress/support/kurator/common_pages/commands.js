@@ -152,12 +152,15 @@ Cypress.Commands.addAll({
     capture_argos_screenshot(screenshotLabel) {
         cy.argosScreenshot(screenshotLabel, {
             viewports: [
-                {width: 1920, height: 1080},
-                {width: 768, height: 1024},
-                {width: 390, height: 844}
+                {height: 1920, width: 1080},
+                {height: 768, width: 1024},
+                {height: 390, width: 844}
             ],
-            capture: 'fullPage'
         });
+    },
+
+    make_header_nonSticky() {
+        cy.get('header div[data-device="desktop"] .ct-sticky-container > div').invoke('removeAttr','data-sticky')
     },
 
     capture_lambdatest_screenshot(screenshotLabel, elementSelector, specific) {
