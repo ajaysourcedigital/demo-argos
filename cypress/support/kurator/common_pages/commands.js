@@ -150,6 +150,7 @@ Cypress.Commands.addAll({
     },
 
     capture_argos_screenshot(screenshotLabel) {
+        cy.make_header_nonSticky()
         cy.argosScreenshot(screenshotLabel, {
             viewports: [
                 {height: 1920, width: 1080},
@@ -158,6 +159,10 @@ Cypress.Commands.addAll({
             ],
         })
 
+    },
+
+    make_header_nonSticky() {
+        cy.get('header div[data-device="desktop"] .ct-sticky-container > div').invoke('removeAttr','data-sticky')
     },
 
     capture_lambdatest_screenshot(screenshotLabel, elementSelector, specific) {
