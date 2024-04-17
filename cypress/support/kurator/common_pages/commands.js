@@ -156,11 +156,8 @@ Cypress.Commands.addAll({
                 {height: 768, width: 1024},
                 {height: 390, width: 844}
             ],
-        });
-    },
+        })
 
-    make_header_nonSticky() {
-        cy.get('header div[data-device="desktop"] .ct-sticky-container > div').invoke('removeAttr','data-sticky')
     },
 
     capture_lambdatest_screenshot(screenshotLabel, elementSelector, specific) {
