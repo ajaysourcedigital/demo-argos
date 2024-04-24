@@ -150,7 +150,6 @@ Cypress.Commands.addAll({
     },
 
     capture_argos_screenshot(screenshotLabel) {
-        cy.make_header_nonSticky()
         cy.argosScreenshot(screenshotLabel, {
             viewports: [
                 {height: 1920, width: 1080},

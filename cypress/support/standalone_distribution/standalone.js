@@ -1,5 +1,5 @@
 function open_sam(display_icon_selector, block_name) {
-    cy.contains(display_icon_selector, block_name).should('be.visible').click()
+    cy.contains(display_icon_selector, block_name).should('be.visible').click({force:true})
 }
 
 function close_sam() {
