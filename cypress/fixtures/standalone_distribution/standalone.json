@@ -1,0 +1,45 @@
+{
+    "smartblock_display_icon_selector" : ".smartblock-display__label > div",
+
+    "action_block_display_name": "Action blocks",
+    "action_block_contents_selector": ".activation-details__content .smart-block-list .smart-block-list__item button",
+
+    "brand_block_display_name": "brand blocks",
+    "brand_block_contents_selector": ".activation-details-container .smart-block-list__item .q-img__image",
+
+    "display_block_display_name": "display blocks",
+    "display_block_contents_selector": ".activation-details-container .smart-block-list__item .smartblock-display__avatar",
+
+    "iframe_kurator_block_display_name": "iFrame Kurator block",
+    "iframe_kurator_block_contents_selector": ".activation-details-container .smart-block-list__item iframe",
+
+    "iframe_block_display_name": "Iframe blocks",
+    "iframe_block_contents_selector": ".activation-details-container .smart-block-list__item iframe",
+
+    "image_carousel_block_display_name": "Image carousel blocks",
+    "image_carousel_block_contents_selector": ".activation-details-container .smart-block-list__item .q-img__image",
+
+    "image_block_display_name": "Image blocks",
+    "image_block_contents_selector": ".activation-details-container .smart-block-list__item .q-img__image",
+
+    "location_block_display_name": "Location blocks",
+    "location_block_contents_selector": ".activation-details-container .smart-block-list__item .q-map__ref",
+
+    "markdown_block_display_name": "Markdown blocks",
+    "markdown_block_contents_selector": ".activation-details-container .smart-block-list__item div",
+
+    "product_block_display_name": "Product blocks",
+    "product_block_contents_selector": ".activation-details-container .smart-block-list__item .q-img__image",
+
+    "richtext_block_display_name": "Rich text blocks",
+    "richtext_block_contents_selector": ".activation-details-container .smart-block-list__item div",
+
+    "social_block_display_name": "Social blocks",
+    "social_block_contents_selector": ".activation-details-container .smart-block-social",
+
+    "survey_block_display_name": "Survey blocks",
+    "survey_block_contents_selector": ".activation-details-container .smart-block-list__item .sv_body",
+
+    "video_block_display_name": "Video blocks",
+    "video_block_contents_selector": ".activation-details-container .smart-block-list__item video"
+}
