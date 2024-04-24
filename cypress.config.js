@@ -11,8 +11,11 @@ module.exports = defineConfig({
         // Set your Argos token (required only if you don't use GitHub Actions).
         token: "aaebb5525c333775c049c2acd182a4097e010190",
       });
-
-      // include any other plugin code...
     },
+    viewportHeight: 1080,
+    viewportWidth: 1920,
+    defaultCommandTimeout: 60000,
+    requestTimeout: 60000,
+    responseTimeout: 60000
   },
 });
