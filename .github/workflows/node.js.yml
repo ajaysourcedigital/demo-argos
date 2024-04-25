@@ -24,4 +24,4 @@ jobs:
         node-version: 18
         cache: 'npm'
     - run: npm install
-    - run: npx cypress run
+    - run: npx cypress run --browser chrome
